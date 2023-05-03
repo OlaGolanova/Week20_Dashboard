@@ -1,0 +1,27 @@
+{
+  "name": "week20_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-js": "browserify src/script.js -o dist/bundle.js",
+    "watch-js": "watchify src/script.js -o dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlaGolanova/Week20_Dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlaGolanova/Week20_Dashboard/issues"
+  },
+  "homepage": "https://github.com/OlaGolanova/Week20_Dashboard#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "chartjs": "^0.3.24",
+    "moment": "^2.29.4",
+    "swiper": "^9.2.4",
+    "watchify": "^4.0.0"
+  }
+}

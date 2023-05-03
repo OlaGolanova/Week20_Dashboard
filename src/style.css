@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 30px;
+}
+.wrap {
+    margin: 20px;
+    background-color: rgba(223, 223, 223, 0.722);
+    border-radius: 30px;
+}
+.wrap-date {
+    display: flex;
+    flex-wrap: wrap;
+}
+.title {
+    color:rgb(224, 77, 77);
+    border-radius: 20px;
+}
+
+.date {
+    color:#fab318;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 2px solid #fab318;
+    padding: 10px;
+}
+.hours {
+    color:rgb(35, 209, 212);
+    border-radius: 20px;
+    border: 2px solid rgb(35, 209, 212);
+    padding: 10px;
+}
+.population {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.population_cities, .population_krd {
+    width: 35vw;
+    background-color: white;
+    border-radius: 20px;
+}
+.population_male {
+    width: 15vw;
+    margin: 20px;
+}
+.population_migrat {
+    width: 25vw;
+    margin: 20px;
+}
+.population_img {
+    width: 65vw;
+    margin: 20px;
+
+}
+swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+
+swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+ 
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+@media(max-width: 1300px){
+    .wrap-date {
+        margin-top: 10px;
+    }
+    .population_cities, .population_krd {
+        width: 45vw;
+
+    }
+    .population_male {
+        width: 25vw;
+    }
+
+    .population_img {
+        width: 80vw;
+    }
+    .population_migrat {
+        width: 35vw;
+    }
+}
+@media(max-width: 700px){
+    body{
+        font-size: 20px;
+    }
+    .population_cities, .population_krd {
+        width: 80vw;
+        margin-bottom:20px ;
+    }
+    .population_migrat {
+        width: 75vw;
+    }
+    .population_male {
+        width: 45vw;
+    }
+
+}
+    

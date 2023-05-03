@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="wrap">
+        <div class="population">
+        
+            <div class="title">Статистика населения Краснодара и края</div>
+            <div class="wrap-date">
+                <div class="date"></div>
+                <div class="hours"></div>
+            </div>
+            
+        </div>
+        
+        <div class="population">
+
+            <div class="population_cities">
+                <canvas id="myChart"></canvas>
+            </div>
+   
+            <div class="population_krd">
+                <canvas id="myChart7"></canvas>
+            </div>
+
+            <div class="population_male">
+                <canvas id="myChart2"></canvas>
+            </div>
+        </div>
+        <div class="population population_one">
+
+            <div class="population_migrat">
+                <canvas id="myChart6"></canvas>
+            </div>
+
+            <div class="population_img"> 
+                
+
+                <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+                slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+                coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+                <swiper-slide>
+                    <img src="img/2.jpeg" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="img/3.jpeg" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="img/4.jpeg" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="img/5.jpeg" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="img/6.jpeg" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="img/7.jpeg" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="img/8.jpeg" alt="">
+                </swiper-slide>
+         
+              </swiper-container>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../dist/bundle.js"></script>
+</body>
+</html>
