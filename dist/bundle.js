@@ -5687,21 +5687,17 @@
 
 },{}],2:[function(require,module,exports){
 'use strict'
-  // // core version + navigation, pagination modules:
-  // import Swiper, { Navigation, Pagination } from 'swiper';
-  // // import Swiper and modules styles
-  // import 'swiper/css';
-  // import 'swiper/css/navigation';
-  // import 'swiper/css/pagination';
-
+//Подключаю библиотеку moment.js
 const moment = require('moment');
 
+//Задаю локализацию moment.js
 moment.locale('ru', {
   months : 'Января_Февраля_Марта_Апреля_Мая_Июня_Июля_Авгуса_Сентября_Октября_Ноября_Декабря'.split('_'),
   weekdays : 'Понедельник_Вторник_Среда_Четверг_Пятница_Суббота_Воскресенье'.split('_'),
  
 });
 
+//Часы выводят время каждую секунду
 const date = document.querySelector('.date');
 const hours = document.querySelector('.hours');
 
@@ -5709,14 +5705,16 @@ let newDate = new Date();
   date.textContent = moment(newDate).format('dddd D MMMM YYYY');
   hours.textContent = moment(newDate).format('HH:mm:ss');
 
+
 const intervalId = setInterval(function() {
   let now = new Date();
   date.textContent = moment(now).format('dddd D MMMM YYYY');
   hours.textContent = moment(now).format('HH:mm:ss'); 
 }, 1000)
 
-const ctx = document.getElementById('myChart');
 
+//Библиотека Chart.js
+const ctx = document.getElementById('myChart');
 const labels = ["Армавир", "Анапа", "Геленджик", "Ейск", "Краснодар", "Кропоткин", "Новороссийск", "Славянск-на-Кубани", "Сочи", "Туапсе"];
 
   new Chart(ctx, {
@@ -5752,7 +5750,6 @@ const labels = ["Армавир", "Анапа", "Геленджик", "Ейск"
 
 
   const ctx7 = document.getElementById('myChart7');
-
   new Chart(ctx7, {
     type: 'scatter',
     data: {
@@ -5797,9 +5794,9 @@ const labels = ["Армавир", "Анапа", "Геленджик", "Ейск"
     }
   } 
   });
+
   
   const ctx2 = document.getElementById('myChart2');
-
   new Chart(ctx2, {
     type: 'doughnut',
     data: {
@@ -5822,8 +5819,7 @@ const labels = ["Армавир", "Анапа", "Геленджик", "Ейск"
 
 
 
-    const ctx6 = document.getElementById('myChart6');
-
+  const ctx6 = document.getElementById('myChart6');
   new Chart(ctx6, {
     type: 'radar',
     data: {
@@ -5862,7 +5858,7 @@ const labels = ["Армавир", "Анапа", "Геленджик", "Ейск"
   });
 
   
-
+//Библиотеку Swiper.js Подключила через CDN, и сладер добавился через ссылку
 
 
 },{"moment":1}]},{},[2]);
