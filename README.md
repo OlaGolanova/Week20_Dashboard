@@ -1,39 +1,10 @@
-# Week20_Dashboard
+
 # Big-Cities
 # Большие Города
+Часть логики для информационной или образовательной платформы о городах и странах.
 ​
-Site for repair construction work.
+## Описание
 ​
-## Description (Описание)
-​
-This project is a site for the opportunity to see the work of a repair company, leave a request for repair work on the site.
-​
-​
-## Technology stack (стек технологий)
-<p>
-<img src="assets/img/HTML.png" alt="HTML" width="100rem"/>
-<img src="assets/img/CSS.png" alt="CSS" width="100rem"/>
-<img src="assets/img/JS.png" alt="JS" width="100rem"/>
-<img src="assets/img/PHP.png" alt="PHP" width="100rem"/>
-</p>
-​
-​
-## Result (скриншот результата)
-​
-[Сlick me](ссылка на сайт на гитхабе)
-<p><img src="assets/img/forReadme1.jpg" alt="result"/>
-</p>
-​
-​
-## Authors
-​
-Name<br>
-[@имя автора на гитхабе](ссылка на гитхаб разработчика)
-​
-
-# Big-Cities (Большие Города)
-
-Часть логики для информационной или образовательной платформы о городах и странах. 
 В приложении реализована демонстрация данных о 10 городах: 
 - развёрнутая информация о погоде в данный момент, 
 - точная дата, время обновляющееся каждую минуту без дополнительного запроса от пользователя, 
@@ -46,13 +17,23 @@ Name<br>
 
 ​Данные хранятся в JSON формате. В файле DataJSON.js.
 ​
-
-Стек: Htm5, CSS3, SCSS, JS, API
-Библиотеки: moment.js, gsap, chart.js
-
 ​
-Ссылка на github pages 
+## Стек технологий
 
+Стек технологий: 
+- Htm5 
+- CSS3
+- SCSS 
+- JS
+- API <br>
+Библиотеки: 
+- moment.js 
+- gsap 
+- chart.js
+
+## Ссылка на github pages 
+​
+## Командная работа 
 Командная работа <br>
 [@anna-shr](https://github.com/anna-shr) <br>
 [@Julia6658](https://github.com/Julia6658) <br>
